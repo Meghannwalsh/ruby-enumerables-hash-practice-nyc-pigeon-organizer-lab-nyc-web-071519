@@ -4,7 +4,9 @@ def nyc_pigeon_organizer(data)
     v.each do |spac, names|
       names.each do |name|
       if pigeon_data.include?(name) == nil
+        p pigeon_data
         pigeon_data[name] = {:color => [], :gender => [], :lives => []}
+        p pigeon_data
       end
     end
   end
