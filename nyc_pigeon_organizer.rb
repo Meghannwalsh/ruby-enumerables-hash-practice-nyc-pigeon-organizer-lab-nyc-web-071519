@@ -5,7 +5,6 @@ def nyc_pigeon_organizer(data)
       names.each do |name|
         if !pigeon_data.include?(name)
         pigeon_data[name] = {:color => [], :gender => [], :lives => []}
-        p pigeon_data
       end
     end 
   end
