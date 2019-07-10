@@ -22,8 +22,7 @@ def nyc_pigeon_organizer(data)
     data[:lives].each do |liv|
       if data[:lives][liv].include?(name)
         piegon_data[name][:lives] << liv
-      end 
+      end
     end
-
-
+piegon_data
 end
