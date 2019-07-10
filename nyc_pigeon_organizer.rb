@@ -17,14 +17,14 @@ end
     end
     data[:gender].each do |gen|
       if data[:gender][gen].include?(name)
-        piegon_data[name][:gender] << gen
+        pigeon_data[name][:gender] << gen
       end
     end
     data[:lives].each do |liv|
       if data[:lives][liv].include?(name)
-        piegon_data[name][:lives] << liv
+        pigeon_data[name][:lives] << liv
       end
     end
   end
-    piegon_data
+    pigeon_data
 end
