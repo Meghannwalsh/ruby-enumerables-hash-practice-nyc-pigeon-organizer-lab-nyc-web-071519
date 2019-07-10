@@ -6,7 +6,6 @@ def nyc_pigeon_organizer(data)
         pigeon_data[name] = {:color => [], :gender => [], :lives => []}
         p pigeon_data
       end
-    end
   end
 end
   pigeon_data.each_key do |name|
