@@ -1,8 +1,8 @@
 def nyc_pigeon_organizer(data)
   pigeon_data = {}
   data.each do |k, v|
-    v.each do |spac|
-      spac.each do |name|
+    v.each do |spac, names|
+      names.each do |name|
       if pigeon_data.include?(name) == nil
         pigeon_data[name] = {:color => [], :gender => [], :lives => []}
       end
