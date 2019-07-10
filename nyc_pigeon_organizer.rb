@@ -8,9 +8,10 @@ def nyc_pigeon_organizer(data)
       end
     end
   end
-  data.each do |k, v|
-    v.each do |spac|
-        if spac.include?()
+  pigeon_data.each do |name|
+    data[:color].each do |col|
+      if data[:color][col].include?(name)
+        
 
 
 end
