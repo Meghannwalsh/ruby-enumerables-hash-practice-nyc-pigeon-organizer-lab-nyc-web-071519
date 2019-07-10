@@ -4,7 +4,7 @@ def nyc_pigeon_organizer(data)
     v.each do |spac, names|
       names.each do |name|
         p name
-        p spe\ac
+        p spac
         p names
       if pigeon_data.include?(name) == nil
         p pigeon_data
