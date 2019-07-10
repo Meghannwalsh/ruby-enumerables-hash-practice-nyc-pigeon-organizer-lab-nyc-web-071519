@@ -25,5 +25,6 @@ end
         piegon_data[name][:lives] << liv
       end
     end
+  end 
     piegon_data
 end
