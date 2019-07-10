@@ -24,5 +24,5 @@ def nyc_pigeon_organizer(data)
         piegon_data[name][:lives] << liv
       end
     end
-piegon_data
+    piegon_data
 end
