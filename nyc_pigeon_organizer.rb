@@ -12,17 +12,17 @@ end
   pigeon_data.each_key do |name|
     data[:color].each do |col, original_name|
       if data[:color][col].include?(name)
-        pigeon_data[name][:color] << col
+        pigeon_data[name][:color] << col.to_s
       end
     end
     data[:gender].each do |gen, og_name|
       if data[:gender][gen].include?(name)
-        pigeon_data[name][:gender] << gen
+        pigeon_data[name][:gender] << gen.to_s
       end
     end
     data[:lives].each do |liv, og_name|
       if data[:lives][liv].include?(name)
-        pigeon_data[name][:lives] << liv
+        pigeon_data[name][:lives] << liv.to_s
       end
     end
   end
