@@ -12,6 +12,18 @@ def nyc_pigeon_organizer(data)
     data[:color].each do |col|
       if data[:color][col].include?(name)
         pigeon_data[name][:color] << col
+      end 
+    end 
+    data[:gender].each do |gen|
+      if data[:gender][gen].include?(name)
+        piegon_data[name][:gender] << gen
+      end 
+    end 
+    data[:lives].each do |liv|
+      if data[:lives][liv].include?(name)
+        piegon_data[name][:lives] << liv
+      end 
+    end 
 
 
 end
