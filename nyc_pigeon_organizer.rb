@@ -8,6 +8,7 @@ def nyc_pigeon_organizer(data)
       end
     end
   end
+end
   pigeon_data.each do |name|
     data[:color].each do |col|
       if data[:color][col].include?(name)
