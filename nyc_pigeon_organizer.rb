@@ -6,7 +6,7 @@ def nyc_pigeon_organizer(data)
         if !pigeon_data.include?(name)
         pigeon_data[name] = {:color => [], :gender => [], :lives => []}
       end
-    end 
+    end
   end
 end
   pigeon_data.each_key do |name|
